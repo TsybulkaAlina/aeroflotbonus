@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 14820;
-        int y = x / 20;
-        System.out.println("Количество начисленных миль:" + y);
+        int ticketPrice = 14820; // Стоимость билета
+        int miles = ticketPrice / 20; // Количество миль за каждые 20 рублей
+
+        System.out.println("Количество начисленных миль:" + miles);
+
         //Количество начисленных миль:741
     }
 }
